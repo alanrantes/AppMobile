@@ -56,7 +56,7 @@ Com base nas personas, foram levantadas as seguintes histórias:
 | RF03| Gerenciar Ciclo de Produção| Permitir a visualização de informações relacionadas ao ciclo de produção.                                               | Alta       |
 | RF04| Gerenciar Posicionamentos  | Permitir a visualização de informações relacionadas ao posicionamentos no destacker, garantindo precisão nos ajustes para otimização do processo.                                      | Média      |
 | RF05| Gerenciar Dados            | Organizar e consolidar os dados coletados diariamente, possibilitando consultas e análises para outras funcionalidades do sistema.                       | Alta       |
-| RF06| Gerar Gráficos              | Criar representações visuais dos dados coletados, permitindo análise de desempenho e tomada de decisão.                                                   | Alta       |
+| RF06| Gerar Gráficos             | Criar representações visuais dos dados coletados, permitindo análise de desempenho e tomada de decisão.                                                   | Alta       |
 | RF07| Gerenciar Exportação       | Exportar dados e relatórios em formatos compatíveis (por exemplo, CSV, PDF), facilitando o compartilhamento e arquivamento das informações.               | Média      |
 | RF08| Gerenciar Coleta de Dados  | Registrar medições e informações coletadas em campo, garantindo consistência e integridade dos dados.                                                     | Alta       |
 | RF09| Gerenciar Inspeções        | Controlar registros de inspeções realizadas, incluindo status, observações e resultados para análise futura.                                               | Média      |
@@ -79,10 +79,10 @@ Com base nas personas, foram levantadas as seguintes histórias:
 |RNF-001| O aplicativo deve carregar qualquer página em até 2 segundos. | MÉDIA | 
 |RNF-002| A geração de gráficos deve ser concluída em menos de 5 segundos |  BAIXA | 
 |RNF-003| O aplicativo deve rodar em múltiplos dispositivos Android sem ajustes manuais. |  BAIXA | 
-|RNF-004|  |  MÉDIA | 
-|RNF-005|  |  ALTA | 
-|RNF-006|  |  MÉDIA | 
-|RNF-007|  |  ALTA |
+|RNF-004|  |   | 
+|RNF-005|  |   | 
+|RNF-006|  |  | 
+|RNF-007|  |   |
 
 
 ## Restrições
@@ -90,11 +90,11 @@ Com base nas personas, foram levantadas as seguintes histórias:
 | ID |                                                                 RESTRIÇÃO                                                                            |
 |----|------------------------------------------------------------------------------------------------------------------------------------------------------|
 |001 | O aplicativo deve permitir alterações em dados de produção apenas quando não houver processos ativos em execução para evitar inconsistências.        |
-|002 | A exclusão de registros (ex.: peças, ordens de serviço, máquinas) deve exigir confirmação explícita do usuário para evitar perda acidental de dados.|
-|003 | O aplicativo deve restringir o acesso a determinados módulos conforme as permissões definidas para cada usuário (quando implementado).|
-|004 | O registro de produção deve conter todos os campos obrigatórios preenchidos antes de ser salvo.|
-|005 | A exportação de relatórios e gráficos deve seguir um formato padronizado e ser compatível com os dispositivos móveis.|
-|006 | Alterações em dados compartilhados (ex.: estoque, ciclo de produção) devem ser refletidas em todas as telas do aplicativo de forma imediata.|
+|002 | A exclusão de registros (ex.: peças, ordens de serviço, máquinas) deve exigir confirmação explícita do usuário para evitar perda acidental de dados. |
+|003 | O aplicativo deve restringir o acesso a determinados módulos conforme as permissões definidas para cada usuário (quando implementado).               |
+|004 | O registro de produção deve conter todos os campos obrigatórios preenchidos antes de ser salvo.                                                      |
+|005 | A exportação de relatórios e gráficos deve seguir um formato padronizado e ser compatível com os dispositivos móveis.                                |
+|006 | Alterações em dados compartilhados (ex.: estoque, ciclo de produção) devem ser refletidas em todas as telas do aplicativo de forma imediata.         |
 
 
 ## Diagrama de casos de uso
