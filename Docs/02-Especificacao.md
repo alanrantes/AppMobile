@@ -49,6 +49,30 @@ Com base nas personas, foram levantadas as seguintes histórias:
 
 ### Requisitos funcionais
 
+|ID    |   Descrição do Requisito    | Prioridade |
+|------|-----------------------------|------------|
+|RF-001| Gerenciar Dados da peça     |    ALTA    | 
+|RF-002| Gerenciar Ciclo de corte    |        |
+|RF-003| Gerenciar Ciclo de produção |        |
+|RF-004| Gerenciar Posicionamentos   |       |
+|RF-005| Gerenciar Dados             |      |
+|RF-006| Gerar Gráficos              |       |
+|RF-007| Gerenciar exportação        |       |
+|RF-008| Gerenciar coleta de dados   |        |
+|RF-009| Gerenciar inspeções         |       |
+|RF-010| Gerenciar Produção          |       |
+|RF-011| Gerenciar Ordem de Serviço  |       |
+|RF-012| Gerenciar Edições           |       |
+|RF-013| Gerenciar Histórico         |       |
+|RF-014| Gerenciar Estoque           |       |
+|RF-014| Gerenciar Consumo           |       |
+|RF-014| Gerenciar Cadastro          |       |
+|RF-014| Gerenciar Ocorrências       |       |
+|RF-014| Gerenciar Preventivas       |       |
+|RF-014| Gerenciar Custos            |       |
+|RF-014| Gerenciar Propostas         |       |
+
+
 ### Requisitos não funcionais
 
 ## Restrições
