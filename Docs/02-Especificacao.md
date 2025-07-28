@@ -49,29 +49,28 @@ Com base nas personas, foram levantadas as seguintes histórias:
 
 ### Requisitos funcionais
 
-|ID    |   Descrição do Requisito    | Prioridade |
-|------|-----------------------------|------------|
-|RF-001| Gerenciar Dados da peça     |    ALTA    | 
-|RF-002| Gerenciar Ciclo de corte    |        |
-|RF-003| Gerenciar Ciclo de produção |        |
-|RF-004| Gerenciar Posicionamentos   |       |
-|RF-005| Gerenciar Dados             |      |
-|RF-006| Gerar Gráficos              |       |
-|RF-007| Gerenciar exportação        |       |
-|RF-008| Gerenciar coleta de dados   |        |
-|RF-009| Gerenciar inspeções         |       |
-|RF-010| Gerenciar Produção          |       |
-|RF-011| Gerenciar Ordem de Serviço  |       |
-|RF-012| Gerenciar Edições           |       |
-|RF-013| Gerenciar Histórico         |       |
-|RF-014| Gerenciar Estoque           |       |
-|RF-014| Gerenciar Consumo           |       |
-|RF-014| Gerenciar Cadastro          |       |
-|RF-014| Gerenciar Ocorrências       |       |
-|RF-014| Gerenciar Preventivas       |       |
-|RF-014| Gerenciar Custos            |       |
-|RF-014| Gerenciar Propostas         |       |
-
+| ID  | FUNCIONALIDADE             | DESCRIÇÃO                                                                                                                                                  | PRIORIDADE |
+|-----|----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
+| RF01| Gerenciar Dados da Peça    | Permitir a visualização de informações relacionadas às peças utilizadas na produção, garantindo rastreabilidade e atualização dos dados. | Alta       |
+| RF02| Gerenciar Ciclo de Corte   | Permitir a visualização de informações relacionadas ao ciclo de corte da peça.                                    | Alta       |
+| RF03| Gerenciar Ciclo de Produção| Permitir a visualização de informações relacionadas ao ciclo de produção.                                               | Alta       |
+| RF04| Gerenciar Posicionamentos  | Permitir a visualização de informações relacionadas ao posicionamentos no destacker, garantindo precisão nos ajustes para otimização do processo.                                      | Média      |
+| RF05| Gerenciar Dados            | Organizar e consolidar os dados coletados diariamente, possibilitando consultas e análises para outras funcionalidades do sistema.                       | Alta       |
+| RF06| Gerar Gráficos              | Criar representações visuais dos dados coletados, permitindo análise de desempenho e tomada de decisão.                                                   | Alta       |
+| RF07| Gerenciar Exportação       | Exportar dados e relatórios em formatos compatíveis (por exemplo, CSV, PDF), facilitando o compartilhamento e arquivamento das informações.               | Média      |
+| RF08| Gerenciar Coleta de Dados  | Registrar medições e informações coletadas em campo, garantindo consistência e integridade dos dados.                                                     | Alta       |
+| RF09| Gerenciar Inspeções        | Controlar registros de inspeções realizadas, incluindo status, observações e resultados para análise futura.                                               | Média      |
+| RF10| Gerenciar Produção         | Acompanhar dados gerais da produção, como quantidade produzida, tempos de ciclo e eventuais desvios.                                                        | Alta       |
+| RF11| Gerenciar Ordem de Serviço | Criar, atualizar, acompanhar e encerrar ordens de serviço, garantindo controle sobre atividades de manutenção e reparo.                                   | Alta       |
+| RF12| Gerenciar Edições          | Controlar alterações feitas em ordens de serviço, máquinas e dados associados, mantendo histórico das modificações.                                       | Média      |
+| RF13| Gerenciar Histórico        | Armazenar e permitir consulta ao histórico de falhas e eventos das máquinas, facilitando análises e previsões.                                             | Média      |
+| RF14| Gerenciar Estoque          | Controlar entrada, saída e saldo de materiais no almoxarifado, evitando faltas ou excessos.                                                                 | Alta       |
+| RF15| Gerenciar Consumo          | Registrar e analisar o consumo de materiais e insumos, permitindo melhor planejamento e reposição.                                                         | Alta       |
+| RF16| Gerenciar Cadastro         | Permitir o cadastro e manutenção de dados de máquinas, peças e usuários do sistema.                                                                       | Alta       |
+| RF17| Gerenciar Ocorrências      | Registrar e acompanhar ocorrências relacionadas à segurança, garantindo rastreabilidade e resolução.                                                       | Alta       |
+| RF18| Gerenciar Preventivas      | Agendar, registrar e monitorar manutenções preventivas das máquinas, visando redução de falhas e aumento da confiabilidade.                               | Alta       |
+| RF19| Gerenciar Custos           | Registrar custos operacionais, possibilitando análises financeiras e identificação de oportunidades de redução.                                           | Alta       |
+| RF20| Gerenciar Propostas        | Criar e acompanhar propostas de redução de custos, registrando projeções, resultados esperados e acompanhamento da implementação.                         | Alta       |
 
 ### Requisitos não funcionais
 
@@ -87,6 +86,16 @@ Com base nas personas, foram levantadas as seguintes histórias:
 
 
 ## Restrições
+
+| ID |                                                                 RESTRIÇÃO                                                                            |
+|----|------------------------------------------------------------------------------------------------------------------------------------------------------|
+|001 | O aplicativo deve permitir alterações em dados de produção apenas quando não houver processos ativos em execução para evitar inconsistências.        |
+|002 | A exclusão de registros (ex.: peças, ordens de serviço, máquinas) deve exigir confirmação explícita do usuário para evitar perda acidental de dados.|
+|003 | O aplicativo deve restringir o acesso a determinados módulos conforme as permissões definidas para cada usuário (quando implementado).|
+|004 | O registro de produção deve conter todos os campos obrigatórios preenchidos antes de ser salvo.|
+|005 | A exportação de relatórios e gráficos deve seguir um formato padronizado e ser compatível com os dispositivos móveis.|
+|006 | Alterações em dados compartilhados (ex.: estoque, ciclo de produção) devem ser refletidas em todas as telas do aplicativo de forma imediata.|
+
 
 ## Diagrama de casos de uso
 
