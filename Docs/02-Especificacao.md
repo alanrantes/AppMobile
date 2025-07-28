@@ -75,6 +75,17 @@ Com base nas personas, foram levantadas as seguintes histórias:
 
 ### Requisitos não funcionais
 
+|ID     | Descrição do Requisito  |Prioridade |
+|-------|-------------------------|----|
+|RNF-001| O aplicativo deve carregar qualquer página em até 2 segundos. | MÉDIA | 
+|RNF-002| A geração de gráficos deve ser concluída em menos de 5 segundos |  BAIXA | 
+|RNF-003| O aplicativo deve rodar em múltiplos dispositivos Android sem ajustes manuais. |  BAIXA | 
+|RNF-004|  |  MÉDIA | 
+|RNF-005|  |  ALTA | 
+|RNF-006|  |  MÉDIA | 
+|RNF-007|  |  ALTA |
+
+
 ## Restrições
 
 ## Diagrama de casos de uso
