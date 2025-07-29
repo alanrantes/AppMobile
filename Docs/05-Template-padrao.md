@@ -8,12 +8,30 @@
 <p align="justify">A criação do layout foi orientada pela necessidade de oferecer uma interface simples e funcional, capaz de ser utilizada rapidamente em ambientes industriais. A estética privilegia clareza e objetividade, alinhadas à ideia de um aplicativo de apoio operacional, pensado para otimizar rotinas diárias.</p>
 <p align="justify">A escolha visual enfatiza o conceito de mobilidade e agilidade, essenciais em um contexto onde colaboradores frequentemente precisam acessar informações longe de um computador ou notebook. A abordagem reforça que a tecnologia pode ser ao mesmo tempo moderna, intuitiva e não intrusiva.</p>
 
-## Paleta de Cores
+![image]()
 
+## Paleta de Cores
+<p align="justify">Para a construção visual do aplicativo, foi selecionada uma paleta de tons azulados e neutros (#000545, #002984, #A3C1FF, #DBE4FF, #E4E1E1), escolhida estrategicamente para transmitir profissionalismo, confiabilidade e clareza na comunicação de dados operacionais — atributos essenciais para aplicações voltadas à gestão e acompanhamento de processos produtivos.</p>
+<p align="justify">O azul é amplamente associado a precisão, estabilidade e confiança, valores diretamente relacionados a sistemas corporativos e industriais. Tons mais escuros reforçam a seriedade e a robustez tecnológica da aplicação, enquanto as variações mais claras oferecem leveza e acessibilidade visual, proporcionando uma interface agradável mesmo em longos períodos de uso.</p>
+<p align="justify">A paleta foi planejada para equilibrar modernidade e eficiência, reforçando a identidade técnica da aplicação e criando um ambiente visual coerente com seu propósito: agilizar o acesso a informações, otimizar processos e apoiar a tomada de decisões no contexto produtivo.</p>
+
+![image]()
 
 
 ### Harmonia em Tons de Azul
+<p align="justify">Esta paleta foi escolhida para transmitir profissionalismo, confiança e clareza, características essenciais para sistemas industriais e de gestão de dados, garantindo uma comunicação visual eficiente e confiável.</p>
 
+- **#000545 — Azul Profundo:** simboliza precisão, seriedade e robustez tecnológica, transmitindo estabilidade na apresentação das informações.
+ 
+- **#002984 — Azul Corporativo:** reforça confiança e eficiência, alinhando-se ao contexto de processos produtivos e tomada de decisão.
+
+- **#A3C1FF — Azul Claro:** proporciona leveza e acessibilidade visual, garantindo conforto ao usuário durante longos períodos de uso.
+
+- **#DBE4FF — Azul Suave:** cria equilíbrio e neutralidade, facilitando a leitura e organização dos dados.
+ 
+- **#E4E1E1 — Cinza Neutro:** contribui para a harmonia geral da interface, destacando elementos essenciais sem sobrecarregar a experiência visual.
+
+<p align="justify">A predominância dos tons azulados e neutros conecta-se à tecnologia, confiabilidade e eficiência operacional, além de reforçar a identidade visual moderna e objetiva do aplicativo.</p>
 
 ## Iconografia
 
