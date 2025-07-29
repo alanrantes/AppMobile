@@ -8,7 +8,7 @@
 <p align="justify">A persistência dos dados será realizada em um banco de dados relacional SQL, escolhido pela necessidade de integridade referencial, normalização e robustez transacional, fundamentais para o gerenciamento de dados de produção, históricos de falhas, consumos e ordens de serviço. O modelo relacional permite estruturação rígida dos dados e consultas complexas, assegurando consistência e confiabilidade mesmo em cenários de alta concorrência.</p>
 <p align="justify">Essa arquitetura garante separação clara de responsabilidades, viabilizando futuras evoluções, integrações e escalabilidade horizontal do sistema.</p>
 
-![image]()
+![Image](Imagens/Arquitetura.png)
 
 ## Diagrama de classes
 
