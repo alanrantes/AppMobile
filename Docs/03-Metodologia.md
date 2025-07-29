@@ -51,11 +51,11 @@
 
 - **HTML, CSS e JavaScript –** tecnologias utilizadas na construção do aplicativo.
 
+## Considerações Finais
 
+<p align="justify">Todo o desenvolvimento deste projeto foi conduzido de forma individual, exigindo organização, autogerenciamento e dedicação ao longo de todas as fases, desde a análise de requisitos até a implementação, testes e documentação. Essa experiência proporcionou uma visão completa do ciclo de desenvolvimento, fortalecendo habilidades técnicas e disciplina.</p>
 
+<p align="justify">Embora o produto final não tenha sido entregue para uso comercial, o projeto foi devidamente apresentado, demonstrando o funcionamento e os principais resultados alcançados. A abordagem ágil adaptada para trabalho solo permitiu iterar e aprimorar continuamente as funcionalidades, garantindo um protótipo funcional alinhado aos objetivos iniciais.</p>
 
-
-
-
-
+<p align="justify">Esse processo individual evidenciou a capacidade de gerir e executar um projeto completo com autonomia, ressaltando a importância do planejamento e da execução metódica para alcançar resultados satisfatórios.</p>
 
