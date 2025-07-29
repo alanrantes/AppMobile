@@ -12,8 +12,11 @@
 <p align="justify">Problemas típicos incluem:</p>
 
 - Registros incompletos ou descentralizados de falhas e incidentes de segurança
+  
 - Falta de acompanhamento eficaz do status das máquinas e equipamentos
+
 - Dificuldade em agendar e monitorar manutenções preventivas
+  
 - Falta de relatórios consolidados para análise e planejamento
 
 <p align="justify">A ausência de uma plataforma integrada que una essas funções gera ineficiências, demora na resolução de problemas e falta de controle dos processos, o que pode impactar a produtividade e a segurança no ambiente operacional.</p>
@@ -22,8 +25,11 @@
 <p align="justify">O objetivo do projeto é desenvolver uma plataforma web responsiva que facilite a gestão operacional por meio da integração de funcionalidades essenciais em um único sistema, oferecendo:</p>
 
 - **Monitoramento de Máquinas:** acompanhamento do status de cada equipamento, registro e histórico de falhas e reparos.
+  
 - **Registros de Ocorrências (Segurança):** interface para relato de incidentes, quase acidentes e acompanhamento histórico.
+  
 - **Agenda de Manutenção Preventiva:** calendário com manutenções programadas, notificações e detalhes dos equipamentos.
+  
 - **Relatórios Exportáveis:** geração de relatórios em PDF com filtros customizáveis para análise e tomada de decisão.
 
 <p align="justify">Além disso, o aplicativo busca melhorar a comunicação interna, otimizar o tempo dos gestores e colaboradores e fornecer dados estruturados para planejamento estratégico.</p>
