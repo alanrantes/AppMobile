@@ -26,13 +26,13 @@
 <ol>
 <li><a href="Docs/01-Contexto.md"> Documentação de contexto</a></li>
 <li><a href="Docs/02-Especificacao.md"> Especificação do projeto</a></li>
-<li><a href="docs/03-Metodologia.md"> Metodologia</a></li>
-<li><a href="docs/04-Projeto-interface.md"> Projeto de interface</a></li>
+<li><a href="Docs/03-Metodologia.md"> Metodologia</a></li>
+<li><a href="Docs/04-Projeto-interface.md"> Projeto de interface</a></li>
 <li><a href="Docs/05-Template-padrao.md"> Template padrão da aplicação</a></li>
-<li><a href="docs/06-Arquitetura-solucao.md"> Arquitetura da solução</a></li>
-<li><a href="docs/07-Plano-testes-software.md"> Plano de testes de software</a></li>
-<li><a href="docs/08-Registro-testes-software.md"> Registro de testes de software</a></li>
-<li><a href="docs/09-Plano-testes-usabilidade.md"> Plano de testes de usabilidade</a></li>
-<li><a href="docs/10-Registro-testes-usabilidade.md"> Registro de testes de usabilidade</a></li>
-<li><a href="docs/11-Referencias.md"> Referências</a></li>
+<li><a href="Docs/06-Arquitetura-solucao.md"> Arquitetura da solução</a></li>
+<li><a href="Docs/07-Plano-testes-software.md"> Plano de testes de software</a></li>
+<li><a href="Docs/08-Registro-testes-software.md"> Registro de testes de software</a></li>
+<li><a href="Docs/09-Plano-testes-usabilidade.md"> Plano de testes de usabilidade</a></li>
+<li><a href="Docs/10-Registro-testes-usabilidade.md"> Registro de testes de usabilidade</a></li>
+<li><a href="Docs/11-Referencias.md"> Referências</a></li>
 </ol>
