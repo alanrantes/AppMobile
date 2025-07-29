@@ -96,51 +96,55 @@ Frustrações:
 ## Histórias de usuários
 Com base nas personas, foram levantadas as seguintes histórias:
 
-|`PERSONA`|  `FUNCIONALIDADE` | `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Carlos Mendes     | Monitorar dados de produção em tempo real    | Tomar decisões rápidas no chão de fábrica |
-|Ana Beatriz         | Registrar ocorrências de manutenção pelo celular | Reduzir o tempo de resposta e melhorar a eficiência |
-|Marcos Oliveira    | Consultar informações de máquinas sem depender do desktop | Evitar atrasos e otimizar o tempo de operação |
-|Fernanda Rocha    | 	Acompanhar indicadores e gerar relatórios a qualquer momento | Garantir visibilidade total e facilitar a gestão |
+|     `PERSONA`    |                            `FUNCIONALIDADE`                   |                   `MOTIVO/VALOR`                    |
+|------------------|---------------------------------------------------------------|-----------------------------------------------------|
+|Carlos Mendes     | Monitorar dados de produção em tempo real                     | Tomar decisões rápidas no chão de fábrica           |
+|Ana Beatriz       | Registrar ocorrências de manutenção pelo celular              | Reduzir o tempo de resposta e melhorar a eficiência |
+|Marcos Oliveira   | Consultar informações de máquinas sem depender do desktop     | Evitar atrasos e otimizar o tempo de operação       |
+|Fernanda Rocha    | 	Acompanhar indicadores e gerar relatórios a qualquer momento | Garantir visibilidade total e facilitar a gestão    |
 
 ## Requisitos
 
+<p align="justify">A definição dos requisitos foi realizada para orientar o desenvolvimento do aplicativo, assegurando que todas as funcionalidades essenciais, critérios técnicos e limitações operacionais estejam claramente documentados. A seguir, são apresentados os requisitos funcionais, requisitos não funcionais e restrições que guiarão a implementação do sistema.
+
+</p>
+
 ### Requisitos funcionais
 
-| ID  | FUNCIONALIDADE             | DESCRIÇÃO                                                                                                                                                  | PRIORIDADE |
-|-----|----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
-| RF01| Gerenciar Dados da Peça    | Permitir a visualização de informações relacionadas às peças utilizadas na produção, garantindo rastreabilidade e atualização dos dados. | Alta       |
-| RF02| Gerenciar Ciclo de Corte   | Permitir a visualização de informações relacionadas ao ciclo de corte da peça.                                    | Alta       |
-| RF03| Gerenciar Ciclo de Produção| Permitir a visualização de informações relacionadas ao ciclo de produção.                                               | Alta       |
-| RF04| Gerenciar Posicionamentos  | Permitir a visualização de informações relacionadas ao posicionamentos no destacker, garantindo precisão nos ajustes para otimização do processo.                                      | Média      |
-| RF05| Gerenciar Dados            | Organizar e consolidar os dados coletados diariamente, possibilitando consultas e análises para outras funcionalidades do sistema.                       | Alta       |
-| RF06| Gerar Gráficos             | Criar representações visuais dos dados coletados, permitindo análise de desempenho e tomada de decisão.                                                   | Alta       |
-| RF07| Gerenciar Exportação       | Exportar dados e relatórios em formatos compatíveis (por exemplo, CSV, PDF), facilitando o compartilhamento e arquivamento das informações.               | Média      |
-| RF08| Gerenciar Coleta de Dados  | Registrar medições e informações coletadas em campo, garantindo consistência e integridade dos dados.                                                     | Alta       |
-| RF09| Gerenciar Inspeções        | Controlar registros de inspeções realizadas, incluindo status, observações e resultados para análise futura.                                               | Média      |
-| RF10| Gerenciar Produção         | Acompanhar dados gerais da produção, como quantidade produzida, tempos de ciclo e eventuais desvios.                                                        | Alta       |
-| RF11| Gerenciar Ordem de Serviço | Criar, atualizar, acompanhar e encerrar ordens de serviço, garantindo controle sobre atividades de manutenção e reparo.                                   | Alta       |
-| RF12| Gerenciar Edições          | Controlar alterações feitas em ordens de serviço, máquinas e dados associados, mantendo histórico das modificações.                                       | Média      |
-| RF13| Gerenciar Histórico        | Armazenar e permitir consulta ao histórico de falhas e eventos das máquinas, facilitando análises e previsões.                                             | Média      |
-| RF14| Gerenciar Estoque          | Controlar entrada, saída e saldo de materiais no almoxarifado, evitando faltas ou excessos.                                                                 | Alta       |
-| RF15| Gerenciar Consumo          | Registrar e analisar o consumo de materiais e insumos, permitindo melhor planejamento e reposição.                                                         | Alta       |
-| RF16| Gerenciar Cadastro         | Permitir o cadastro e manutenção de dados de máquinas, peças e usuários do sistema.                                                                       | Alta       |
-| RF17| Gerenciar Ocorrências      | Registrar e acompanhar ocorrências relacionadas à segurança, garantindo rastreabilidade e resolução.                                                       | Alta       |
-| RF18| Gerenciar Preventivas      | Agendar, registrar e monitorar manutenções preventivas das máquinas, visando redução de falhas e aumento da confiabilidade.                               | Alta       |
-| RF19| Gerenciar Custos           | Registrar custos operacionais, possibilitando análises financeiras e identificação de oportunidades de redução.                                           | Alta       |
-| RF20| Gerenciar Propostas        | Criar e acompanhar propostas de redução de custos, registrando projeções, resultados esperados e acompanhamento da implementação.                         | Alta       |
+| ID  |       FUNCIONALIDADE       |                                                                        DESCRIÇÃO                                                                     |  PRIORIDADE |
+|-----|----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|
+| RF01| Gerenciar Dados da Peça    | Permitir a visualização de informações relacionadas às peças utilizadas na produção, garantindo rastreabilidade e atualização dos dados.             |     ALTA    |
+| RF02| Gerenciar Ciclo de Corte   | Permitir a visualização de informações relacionadas ao ciclo de corte da peça.                                                                       |     ALTA    |
+| RF03| Gerenciar Ciclo de Produção| Permitir a visualização de informações relacionadas ao ciclo de produção.                                                                            |     ALTA    |
+| RF04| Gerenciar Posicionamentos  | Permitir a visualização de informações relacionadas ao posicionamentos no destacker, garantindo precisão nos ajustes para otimização do processo.    |     MÉDIA   |
+| RF05| Gerenciar Dados            | Organizar e consolidar os dados coletados diariamente, possibilitando consultas e análises para outras funcionalidades do sistema.                   |     ALTA    |
+| RF06| Gerar Gráficos             | Criar representações visuais dos dados coletados, permitindo análise de desempenho e tomada de decisão.                                              |     ALTA    |
+| RF07| Gerenciar Exportação       | Exportar dados e relatórios em formatos compatíveis (por exemplo, CSV, PDF), facilitando o compartilhamento e arquivamento das informações.          |     MÉDIA   |
+| RF08| Gerenciar Coleta de Dados  | Registrar medições e informações coletadas em campo, garantindo consistência e integridade dos dados.                                                |     ALTA    |
+| RF09| Gerenciar Inspeções        | Controlar registros de inspeções realizadas, incluindo status, observações e resultados para análise futura.                                         |     MÉDIA   |
+| RF10| Gerenciar Produção         | Acompanhar dados gerais da produção, como quantidade produzida, tempos de ciclo e eventuais desvios.                                                 |     ALTA    |
+| RF11| Gerenciar Ordem de Serviço | Criar, atualizar, acompanhar e encerrar ordens de serviço, garantindo controle sobre atividades de manutenção e reparo.                              |     ALTA    |
+| RF12| Gerenciar Edições          | Controlar alterações feitas em ordens de serviço, máquinas e dados associados, mantendo histórico das modificações.                                  |     MÉDIA   |
+| RF13| Gerenciar Histórico        | Armazenar e permitir consulta ao histórico de falhas e eventos das máquinas, facilitando análises e previsões.                                       |     MÉDIA   |
+| RF14| Gerenciar Estoque          | Controlar entrada, saída e saldo de materiais no almoxarifado, evitando faltas ou excessos.                                                          |     ALTA    |
+| RF15| Gerenciar Consumo          | Registrar e analisar o consumo de materiais e insumos, permitindo melhor planejamento e reposição.                                                   |     ALTA    |
+| RF16| Gerenciar Cadastro         | Permitir o cadastro e manutenção de dados de máquinas, peças e usuários do sistema.                                                                  |     ALTA    |
+| RF17| Gerenciar Ocorrências      | Registrar e acompanhar ocorrências relacionadas à segurança, garantindo rastreabilidade e resolução.                                                 |     ALTA    |
+| RF18| Gerenciar Preventivas      | Agendar, registrar e monitorar manutenções preventivas das máquinas, visando redução de falhas e aumento da confiabilidade.                          |     ALTA    |
+| RF19| Gerenciar Custos           | Registrar custos operacionais, possibilitando análises financeiras e identificação de oportunidades de redução.                                      |     ALTA    |
+| RF20| Gerenciar Propostas        | Criar e acompanhar propostas de redução de custos, registrando projeções, resultados esperados e acompanhamento da implementação.                    |     ALTA    |
 
 ### Requisitos não funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O aplicativo deve carregar qualquer página em até 2 segundos. | MÉDIA | 
-|RNF-002| A geração de gráficos deve ser concluída em menos de 5 segundos |  BAIXA | 
-|RNF-003| O aplicativo deve rodar em múltiplos dispositivos Android sem ajustes manuais. |  BAIXA | 
-|RNF-004|  |   | 
-|RNF-005|  |   | 
-|RNF-006|  |  | 
-|RNF-007|  |   |
+|ID     |                                                      Descrição do Requisito                                                             |Prioridade |
+|-------|-----------------------------------------------------------------------------------------------------------------------------------------|-----------|
+|RNF-001| O aplicativo deve carregar qualquer página em até 2 segundos.                                                                           |   MÉDIA   | 
+|RNF-002| A geração de gráficos deve ser concluída em menos de 5 segundos                                                                         |   BAIXA   | 
+|RNF-003| O aplicativo deve rodar em múltiplos dispositivos Android sem ajustes manuais.                                                          |   BAIXA   | 
+|RNF-004| O sistema deve assegurar a integridade e segurança das informações transmitidas, utilizando protocolos de comunicação criptografados    |   ALTA    | 
+|RNF-005| O tempo de inicialização do aplicativo não deve exceder 3 segundos em dispositivos com especificações mínimas recomendadas.             |   MÉDIA   | 
+|RNF-006| O aplicativo deve ser compatível com as versões do Android mais utilizadas, garantindo cobertura de pelo menos 90% da base de usuários. |   ALTA    | 
+|RNF-007| A sincronização de dados entre servidor e dispositivo deve ocorrer em segundo plano, sem interrupções na experiência do usuário.        |   ALTA    |
 
 
 ## Restrições
@@ -152,8 +156,6 @@ Com base nas personas, foram levantadas as seguintes histórias:
 |003 | O aplicativo deve restringir o acesso a determinados módulos conforme as permissões definidas para cada usuário (quando implementado).               |
 |004 | O registro de produção deve conter todos os campos obrigatórios preenchidos antes de ser salvo.                                                      |
 |005 | A exportação de relatórios e gráficos deve seguir um formato padronizado e ser compatível com os dispositivos móveis.                                |
-|006 | Alterações em dados compartilhados (ex.: estoque, ciclo de produção) devem ser refletidas em todas as telas do aplicativo de forma imediata.         |
-
 
 ## Diagrama de casos de uso
 
