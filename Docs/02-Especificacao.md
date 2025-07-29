@@ -23,17 +23,75 @@
 
 ## Personas
 
-## 1 - Carlos Mendes, 35 anos – Supervisor de Produção
-<p align="justify">Necessita monitorar dados de produção em tempo real e gerar relatórios sem depender do desktop. Busca uma solução rápida para identificar problemas e tomar decisões diretamente no chão de fábrica.</p>
+**1. Carlos Mendes, 35 anos**
 
-## 2 - Ana Beatriz, 29 anos – Técnica de Manutenção
-<p align="justify">Precisa registrar e acompanhar ocorrências de manutenção de forma ágil, sem ter que carregar um notebook para cada setor. Com um app no celular, consegue abrir, consultar e atualizar ordens de serviço imediatamente.</p>
+Profissão: Supervisor de Produção
 
-## 3 - Marcos Oliveira, 40 anos – Operador de Máquina
-<p align="justify">Necessita acessar informações sobre máquinas e materiais rapidamente. Muitas vezes, por não estar próximo de um computador, perde tempo esperando acesso a sistemas internos.</p>
+Localização: Betim - MG
 
-## 4 - Fernanda Rocha, 42 anos – Gerente de Produção
-<p align="justify">Precisa de uma visão consolidada dos indicadores da fábrica. Com um aplicativo mobile, consegue analisar gráficos e relatórios mesmo estando em reuniões ou áreas externas.</p>
+Estado civil: Casado
+
+Perfil: Profissional experiente no controle da produção, responsável por monitorar a eficiência da fábrica e tomar decisões rápidas no chão de fábrica. Costuma lidar com grande volume de dados e relatórios diariamente.
+
+Motivação: Quer acesso rápido a informações consolidadas para resolver problemas e manter a produção estável sem depender de sistemas desktop.
+
+Frustrações:
+- Atrasos na tomada de decisão devido à falta de acesso imediato aos dados.
+- Dificuldade em gerar relatórios quando está fora do escritório.
+
+---------------
+
+**2. Ana Beatriz, 29 anos**
+
+Profissão: Técnica de Manutenção
+
+Localização: Contagem - MG
+
+Estado civil: Solteira
+
+Perfil: Técnica especializada em manutenção preventiva e corretiva. Está constantemente se deslocando entre setores da fábrica, muitas vezes sem acesso a um computador.
+
+Motivação: Quer registrar, acompanhar e atualizar ocorrências de manutenção diretamente pelo celular, reduzindo tempo de resposta e agilizando reparos.
+
+Frustrações:
+- Necessidade de carregar notebook para registrar ordens de serviço.
+- Dificuldade em acessar históricos de manutenção rapidamente no local da ocorrência.
+
+---------------
+
+**3. Marcos Oliveira, 40 anos**
+
+Profissão: Operador de Máquina
+
+Localização: Betim - MG
+
+Estado civil: Casado
+
+Perfil: Responsável pela operação e monitoramento diário de máquinas. Precisa de informações rápidas sobre status e materiais para evitar paradas e atrasos na produção.
+
+Motivação: Quer otimizar tempo consultando dados diretamente pelo smartphone, garantindo que a produção siga sem interrupções.
+
+Frustrações:
+- Perda de tempo aguardando acesso a sistemas em computadores fixos.
+- Falta de uma plataforma integrada para consultar informações sobre máquinas.
+
+---------------
+
+**4. Fernanda Rocha, 42 anos**
+
+Profissão: Gerente de Produção
+
+Localização: Belo Horizonte - MG
+
+Estado civil: Divorciada
+
+Perfil: Responsável pelo gerenciamento geral da produção e análise de indicadores. Passa boa parte do tempo em reuniões e áreas externas, precisando de mobilidade para acompanhar dados em tempo real.
+
+Motivação: Quer ter uma visão consolidada da produção e gerar relatórios de qualquer lugar, facilitando a tomada de decisões estratégicas.
+
+Frustrações:
+- Falta de visibilidade imediata sobre indicadores-chave da fábrica.
+- Dificuldade em acompanhar o desempenho quando está longe do escritório.
 
 ## Histórias de usuários
 Com base nas personas, foram levantadas as seguintes histórias:
