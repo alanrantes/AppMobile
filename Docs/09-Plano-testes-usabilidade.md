@@ -50,6 +50,23 @@ Durante os testes de usabilidade, foram coletadas as seguintes métricas para ca
 ## Restrições e Privacidade
 <p align="justify">Conforme a Lei Geral de Proteção de Dados (LGPD), nenhuma informação pessoal será coletada sem o consentimento explícito dos participantes. Será garantida a anonimização dos dados e a segurança das informações coletadas durante os testes.</p>
 
+## Cenários de teste de usabilidade
+
+| Nº do cenário |                                                                      Descrição do cenário                                                                  |
+|---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1             | Você é um supervisor de produção e precisa acessar o aplicativo no chão de fábrica para visualizar dados em tempo real e identificar desvios. |
+| 2             | Você é uma técnica de manutenção que precisa registrar uma ocorrência, anexar fotos e acompanhar o status da solicitação diretamente pelo celular. |
+| 3             | Você é um operador de máquina e deve consultar informações sobre uma peça para evitar atrasos na operação durante o turno. |
+| 4             | Você é uma gerente de produção que precisa gerar e exportar um relatório consolidado de desempenho para uma reunião em andamento. |
+
+
+
+## Ferramentas Utilizadas
+- **Dispositivo de Teste:** Smartphone com sistema atualizado ou notebook com navegador e extensão compatível.
+- **Cronômetro** (físico ou digital) para medir o tempo de execução das tarefas.
+- **Bloco de notas** físico ou aplicativo de anotações (como Notas do Windows) para registrar observações e dados das métricas.
+- **Formulário digital** simples (Google Forms) para avaliação da satisfação subjetiva ao final das tarefas.
+
 
 
 
