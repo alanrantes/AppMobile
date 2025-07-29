@@ -44,8 +44,93 @@ A navegação foi desenhada para minimizar tempo de execução das tarefas e red
 
 ---------------
 
+## Interface do sistema
 
+Visão geral da interação do usuário por meio das telas do sistema. 
 
+### Tela - Página Principal
+
+<p align="justify"></p>
+
+![image]()
+
+### Tela - Dados da Peça
+
+<p align="justify"></p>
+
+![image]()
+
+### Tela - Ciclo de Corte
+
+<p align="justify"></p>
+
+![image]()
+
+### Tela - Ciclo de Produção
+
+<p align="justify"></p>
+
+![image]()
+
+### Tela - Posicionamento Destacker
+
+<p align="justify"></p>
+
+![image]()
+
+### Tela - Menu Lateral
+
+<p align="justify"></p>
+
+![image]()
+
+### Tela - Gerar Gráficos
+
+<p align="justify"></p>
+
+![image]()
+
+### Tela - Carta de CEP
+
+<p align="justify"></p>
+
+![image]()
+
+### Tela - Ordens de Serviço
+
+<p align="justify"></p>
+
+![image]()
+
+### Tela - Máquinas
+
+<p align="justify"></p>
+
+![image]()
+
+### Tela - Almoxarifado
+
+<p align="justify"></p>
+
+![image]()
+
+### Tela - Segurança
+
+<p align="justify"></p>
+
+![image]()
+
+### Tela - Preventivas
+
+<p align="justify"></p>
+
+![image]()
+
+### Tela - DMC
+
+<p align="justify"></p>
+
+![image]()
 
 
 
@@ -65,10 +150,5 @@ A navegação foi desenhada para minimizar tempo de execução das tarefas e red
 
 
 <p align="justify"></p>
-<p align="justify"></p>
-<p align="justify"></p>
-<p align="justify"></p>
-<p align="justify"></p>
-<p align="justify"></p>
-<p align="justify"></p>
-<p align="justify"></p>
+
+
