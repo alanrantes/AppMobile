@@ -15,7 +15,7 @@
 <p align="justify">O azul é amplamente associado a precisão, estabilidade e confiança, valores diretamente relacionados a sistemas corporativos e industriais. Tons mais escuros reforçam a seriedade e a robustez tecnológica da aplicação, enquanto as variações mais claras oferecem leveza e acessibilidade visual, proporcionando uma interface agradável mesmo em longos períodos de uso.</p>
 <p align="justify">A paleta foi planejada para equilibrar modernidade e eficiência, reforçando a identidade técnica da aplicação e criando um ambiente visual coerente com seu propósito: agilizar o acesso a informações, otimizar processos e apoiar a tomada de decisões no contexto produtivo.</p>
 
-![Paleta de Cores](image/paleta.png)
+![Paleta de Cores](../imagens/paleta.png)
 
 ### Harmonia em Tons de Azul
 <p align="justify">Esta paleta foi escolhida para transmitir profissionalismo, confiança e clareza, características essenciais para sistemas industriais e de gestão de dados, garantindo uma comunicação visual eficiente e confiável.</p>
