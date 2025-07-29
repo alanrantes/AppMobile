@@ -8,10 +8,12 @@
 <p align="justify">A persistência dos dados será realizada em um banco de dados relacional SQL, escolhido pela necessidade de integridade referencial, normalização e robustez transacional, fundamentais para o gerenciamento de dados de produção, históricos de falhas, consumos e ordens de serviço. O modelo relacional permite estruturação rígida dos dados e consultas complexas, assegurando consistência e confiabilidade mesmo em cenários de alta concorrência.</p>
 <p align="justify">Essa arquitetura garante separação clara de responsabilidades, viabilizando futuras evoluções, integrações e escalabilidade horizontal do sistema.</p>
 
-
+![image]()
 
 ## Diagrama de classes
 
 <p align="justify">O diagrama de classes a seguir representa a estrutura lógica da aplicação, destacando as principais entidades do sistema e seus relacionamentos. Ele foi projetado para sustentar o desenvolvimento orientado a objetos, garantindo organização, manutenibilidade e escalabilidade do sistema.</p>
 <p align="justify">O modelo contempla as principais entidades do sistema, cada uma representando elementos centrais do processo produtivo e administrativo. Essas entidades possuem atributos e comportamentos próprios, estruturados para refletir as operações executadas pelos usuários e manter a integridade das informações dentro da aplicação.</p>
 <p align="justify"></p>
+
+![image]()
