@@ -16,4 +16,4 @@
 <p align="justify">O modelo contempla as principais entidades do sistema, cada uma representando elementos centrais do processo produtivo e administrativo. Essas entidades possuem atributos e comportamentos próprios, estruturados para refletir as operações executadas pelos usuários e manter a integridade das informações dentro da aplicação.</p>
 <p align="justify"></p>
 
-![image]()
+![Diagrama de classes]()
