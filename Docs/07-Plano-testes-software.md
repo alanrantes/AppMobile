@@ -39,13 +39,7 @@
 | **Critério de êxito** | As imagens do posicionamento são exibidas corretamente para a peça pesquisada. |
 | **Responsável pela elaboração do caso de teste** | Alan Lacerda Arantes |
 
-
-| **Caso de teste**  | **CT-005 – **  |
-|--------------------|---------------------------------------|
-| **Requisito associado** | RF05 - Gerenciar Dados |
-
-
-| **Caso de teste**  | **CT-006 – Gerar Gráfico de Produção**  |
+| **Caso de teste**  | **CT-005 – Gerar Gráfico de Produção**  |
 |--------------------|---------------------------------------|
 | **Requisito associado** | RF06 - Gerar Gráficos |
 | **Objetivo do teste** | Verificar se o sistema gera corretamente o gráfico de produção com base no desenho, linha e período selecionado. |
@@ -53,8 +47,7 @@
 | **Critério de êxito** | 	O gráfico é exibido corretamente com base nos dados correspondentes ao filtro selecionado. |
 | **Responsável pela elaboração do caso de teste** | Alan Lacerda Arantes |
 
-
-| **Caso de teste**  | **CT-007 – Exportar Gráficos**  |
+| **Caso de teste**  | **CT-006 – Exportar Gráficos**  |
 |--------------------|---------------------------------------|
 | **Requisito associado** | RF07 - Gerenciar Exportação	 |
 | **Objetivo do teste** | Verificar se o sistema permite exportar os gráficos gerados para um arquivo. |
@@ -62,15 +55,15 @@
 | **Critério de êxito** | O arquivo contendo o gráfico gerado é exportado corretamente para o formato selecionado e pode ser aberto sem erros.	 |
 | **Responsável pela elaboração do caso de teste** | Alan Lacerda Arantes |
 
-| **Caso de teste**  | **CT-008 – **  |
+| **Caso de teste**  | **CT-007 – Registrar uma Carta de CEP**  |
 |--------------------|---------------------------------------|
 | **Requisito associado** | RF08 - Gerenciar Coleta de Dados |
-| **Objetivo do teste** |  |
-| **Passos** | <br>  <br>  <br>  <br>  <br> |
-| **Critério de êxito** | 	 |
+| **Objetivo do teste** | Garantir que o usuário consiga preencher e enviar corretamente o formulário de coleta de dados na página Carta de CEP. |
+| **Passos** |- Abrir o aplicativo <br> - Acessar a página "Carta de CEP" <br> - Preencher os campos (Data, Hora, Linha, Turno, Team Leader, Operador, Fornecedor) <br> Clicar em "Salvar Dados"|
+| **Critério de êxito** | Os dados inseridos no formulário são salvos com sucesso, e o sistema confirma o envio sem erros.	 |
 | **Responsável pela elaboração do caso de teste** | Alan Lacerda Arantes |
 
-| **Caso de teste**  | **CT-009 – Registrar Inspeções**  |
+| **Caso de teste**  | **CT-008 – Registrar Inspeções**  |
 |--------------------|---------------------------------------|
 | **Requisito associado** | RF09 - Gerenciar Inspeções |
 | **Objetivo do teste** | Garantir que o usuário consiga registrar o código da inspeção realizada durante a produção. |
@@ -78,15 +71,7 @@
 | **Critério de êxito** | O código da inspeção é salvo corretamente e uma confirmação de sucesso é exibida ao usuário.	 |
 | **Responsável pela elaboração do caso de teste** | Alan Lacerda Arantes |
 
-| **Caso de teste**  | **CT-010 – Registrar uma Carta de CEP**  |
-|--------------------|---------------------------------------|
-| **Requisito associado** | RF10 - Gerenciar Produção|
-| **Objetivo do teste** | Garantir que o usuário consiga preencher e enviar corretamente o formulário de coleta de dados na página Carta de CEP. |
-| **Passos** |- Abrir o aplicativo <br> - Acessar a página "Carta de CEP" <br> - Preencher os campos (Data, Hora, Linha, Turno, Team Leader, Operador, Fornecedor) <br> Clicar em "Salvar Dados" |
-| **Critério de êxito** | Os dados inseridos no formulário são salvos com sucesso, e o sistema confirma o envio sem erros.	 |
-| **Responsável pela elaboração do caso de teste** | Alan Lacerda Arantes |
-
-| **Caso de teste**  | **CT-011 – Registrar uma Ordem**  |
+| **Caso de teste**  | **CT-009 – Registrar uma Ordem**  |
 |--------------------|---------------------------------------|
 | **Requisito associado** | RF11 - Gerenciar Ordem de Serviço |
 | **Objetivo do teste** |Garantir que o usuário consiga criar, editar e gerenciar ordens de serviço corretamente no sistema.  |
@@ -94,15 +79,7 @@
 | **Critério de êxito** | As ordens de serviço são criadas, atualizadas e salvas com sucesso, refletindo corretamente as informações inseridas pelo usuário.	 |
 | **Responsável pela elaboração do caso de teste** | Alan Lacerda Arantes |
 
-| **Caso de teste**  | **CT-012 – **  |
-|--------------------|---------------------------------------|
-| **Requisito associado** | RF12 - Gerenciar Edições |
-| **Objetivo do teste** |  |
-| **Passos** | <br>  <br>  <br>  <br>  <br> |
-| **Critério de êxito** | 	 |
-| **Responsável pela elaboração do caso de teste** | Alan Lacerda Arantes |
-
-| **Caso de teste**  | **CT-013 – Registrar uma Falha**  |
+| **Caso de teste**  | **CT-010 – Registrar uma Falha**  |
 |--------------------|---------------------------------------|
 | **Requisito associado** | RF13 - Gerenciar Histórico |
 | **Objetivo do teste** | Garantir que o sistema registre e exiba corretamente o histórico de falhas, permitindo rastreabilidade completa. |
@@ -110,7 +87,7 @@
 | **Critério de êxito** | O histórico é atualizado automaticamente com todas as ações relevantes, e as informações são exibidas corretamente para o usuário.	 |
 | **Responsável pela elaboração do caso de teste** | Alan Lacerda Arantes |
 
-| **Caso de teste**  | **CT-014 – Consultar Estoque**  |
+| **Caso de teste**  | **CT-011 – Consultar Estoque**  |
 |--------------------|---------------------------------------|
 | **Requisito associado** | RF14 - Gerenciar Estoque |
 | **Objetivo do teste** | Garantir que o sistema permita buscar peças no estoque, simular retiradas e exibir corretamente o saldo atualizado e o estoque mínimo. |
@@ -118,7 +95,7 @@
 | **Critério de êxito** | As buscas retornam as peças corretas, a simulação calcula o saldo futuro adequadamente e o estoque mínimo é exibido com precisão.	 |
 | **Responsável pela elaboração do caso de teste** | Alan Lacerda Arantes |
 
-| **Caso de teste**  | **CT-015 – Registrar uma Ocorrência**  |
+| **Caso de teste**  | **CT-012 – Registrar uma Ocorrência**  |
 |--------------------|---------------------------------------|
 | **Requisito associado** | RF15 - Gerenciar Ocorrências |
 | **Objetivo do teste** | Garantir que o usuário consiga registrar, visualizar e atualizar ocorrências no aplicativo de forma correta. |
@@ -126,7 +103,7 @@
 | **Critério de êxito** | As ocorrências são registradas, exibidas e atualizadas com sucesso, refletindo fielmente as informações fornecidas pelo usuário.	 |
 | **Responsável pela elaboração do caso de teste** | Alan Lacerda Arantes |
 
-| **Caso de teste**  | **CT-016 – Registrar uma Preventiva**  |
+| **Caso de teste**  | **CT-013 – Registrar uma Preventiva**  |
 |--------------------|---------------------------------------|
 | **Requisito associado** | RF16 - Gerenciar Preventivas |
 | **Objetivo do teste** | Garantir que o usuário consiga abrir o modal de cadastro de manutenção preventiva, preencher o formulário selecionando a data e salvar corretamente, fazendo com que o calendário destaque a data cadastrada. |
@@ -134,7 +111,7 @@
 | **Critério de êxito** | Ao salvar a manutenção preventiva, o sistema registra os dados corretamente e exibe uma indicação (bolinha) no calendário na data selecionada.	 |
 | **Responsável pela elaboração do caso de teste** | Alan Lacerda Arantes |
 
-| **Caso de teste**  | **CT-017 – Registrar uma Simulação**  |
+| **Caso de teste**  | **CT-014 – Registrar uma Simulação**  |
 |--------------------|---------------------------------------|
 | **Requisito associado** | RF17 - Gerenciar Custos |
 | **Objetivo do teste** | Garantir que o usuário consiga simular a redução das medidas das peças e que o sistema calcule corretamente o custo de produção baseado nas alterações realizadas. |
