@@ -25,15 +25,18 @@ Entre os casos testados, destacam-se:
 | CT-001 – Consultar Dados da Peça                   | RF01 - Gerenciar Dados da Peça       | [link]()                              |
 | CT-002 – Consultar Ciclo de Corte                  | RF02 - Gerenciar Ciclo de Corte      | [link]()                              |
 | CT-003 – Consultar Ciclo de Produção               | RF03 - Gerenciar Ciclo de Produção   | [link]()                              |
-| CT-004 – Gerar Gráficos de Produção                | RF06 - Gerar Gráficos                | [link]()                              |
-| CT-005 – Criar Ordem de Serviço                    | RF11 - Gerenciar Ordem de Serviço    | [link]()                              |
-| CT-006 – Registrar Ocorrência de Segurança         | RF17 - Gerenciar Ocorrências         | [link]()                              |
-| CT-007 – Registrar Carta de CEP                    | RF08 - Gerenciar Coleta de Dados     | [link]()                              |
-| CT-008 – Consultar Estoque no Almoxarifado         | RF14 - Gerenciar Estoque             | [link]()                              |
-| CT-009 – Agendar Preventiva                        | RF18 - Gerenciar Preventivas         | [link]()                              |
-| CT-010 – Criar Proposta de Redução de Custos (DMC) | RF20 - Gerenciar Propostas           | [link]()                              |
-| CT-011 – Consultar histórico de falhas da máquina  | RF13 - Gerenciar Histórico           | [link]()                              |
-| CT-012 – Alterar status da máquina                 | RF12 - Gerenciar Edições             | [link]()                              |
+| CT-004 – Consultar Posicionamento                  | RF04 - Gerenciar Posicionamentos     | [link]()                              |
+| CT-005 – Gerar Gráfico de Produção                 | RF06 - Gerar Gráficos                | [link]()                              |
+| CT-006 – Exportar Gráficos                         | RF07 - Gerenciar Exportação          | [link]()                              |
+| CT-007 – Registrar uma Carta de CEP                | RF08 - Gerenciar Coleta de Dados     | [link]()                              |
+| CT-008 – Registrar Inspeções                       | RF09 - Gerenciar Inspeções           | [link]()                              |
+| CT-009 – Registrar uma Ordem                       | RF11 - Gerenciar Ordem de Serviço    | [link]()                              |
+| CT-010 – Registrar uma Falha                       | RF13 - Gerenciar Histórico           | [link]()                              |
+| CT-011 – Consultar Estoque                         | RF14 - Gerenciar Estoque             | [link]()                              |
+| CT-012 – Registrar uma Ocorrência                  | RF15 - Gerenciar Ocorrências         | [link]()                              |
+| CT-013 – Registrar uma Preventiva                  | RF16 - Gerenciar Preventivas         | [link]()                              |
+| CT-014 – Registrar uma Simulação                   | RF17 - Gerenciar Custos              | [link]()                              |
+
 
 </div>
 
