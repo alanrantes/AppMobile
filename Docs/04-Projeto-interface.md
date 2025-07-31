@@ -40,7 +40,7 @@ A navegação foi desenhada para minimizar tempo de execução das tarefas e red
 
 **3. Interação direta com os dados,** com suporte a exportação, registros e análises em tempo real.
 
-<p align="justify">Esse fluxo garante que o usuário realize suas atividades com o menor número de interações possíveis, atendendo aos requisitos funcionais RF01 a RF20.</p>
+<p align="justify">Esse fluxo garante que o usuário realize suas atividades com o menor número de interações possíveis, atendendo aos requisitos funcionais RF01 a RF18.</p>
 
 ---------------
 
