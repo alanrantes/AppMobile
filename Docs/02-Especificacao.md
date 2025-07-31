@@ -128,8 +128,8 @@ Com base nas personas, foram levantadas as seguintes histórias:
 | RF13| Gerenciar Histórico        | Armazenar e permitir consulta ao histórico de falhas e eventos das máquinas, facilitando análises e previsões.                                       |     MÉDIA   |
 | RF14| Gerenciar Estoque          | Controlar o saldo de materiais no almoxarifado por meio de consultas e simulações de retirada, considerando o estoque mínimo cadastrado.             |     ALTA    |
 | RF15| Gerenciar Ocorrências      | Registrar e acompanhar ocorrências relacionadas à segurança, garantindo rastreabilidade e resolução.                                                 |     ALTA    |
-| RF17| Gerenciar Preventivas      | Agendar, registrar e monitorar manutenções preventivas das máquinas, visando redução de falhas e aumento da confiabilidade.                          |     ALTA    |
-| RF18| Gerenciar Custos           | Permitir simular redução nas medidas das peças, calculando automaticamente o custo de produção com base nas alterações realizadas.                   |     ALTA    |
+| RF16| Gerenciar Preventivas      | Agendar, registrar e monitorar manutenções preventivas das máquinas, visando redução de falhas e aumento da confiabilidade.                          |     ALTA    |
+| RF17| Gerenciar Custos           | Permitir simular redução nas medidas das peças, calculando automaticamente o custo de produção com base nas alterações realizadas.                   |     ALTA    |
 
 
 ### Requisitos não funcionais
