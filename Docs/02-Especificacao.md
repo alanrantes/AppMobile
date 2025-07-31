@@ -121,18 +121,16 @@ Com base nas personas, foram levantadas as seguintes histórias:
 | RF06| Gerar Gráficos             | Criar representações visuais dos dados coletados, permitindo análise de desempenho e tomada de decisão.                                              |     ALTA    |
 | RF07| Gerenciar Exportação       | Exportar dados e relatórios em formatos compatíveis (por exemplo, CSV, PDF), facilitando o compartilhamento e arquivamento das informações.          |     MÉDIA   |
 | RF08| Gerenciar Coleta de Dados  | Registrar medições e informações coletadas em campo, garantindo consistência e integridade dos dados.                                                |     ALTA    |
-| RF09| Gerenciar Inspeções        | Controlar registros de inspeções realizadas, incluindo status, observações e resultados para análise futura.                                         |     MÉDIA   |
+| RF09| Gerenciar Inspeções        | Registrar códigos de inspeções realizadas nas máquinas durante a produção, para controle simples do processo.                                        |     MÉDIA   |
 | RF10| Gerenciar Produção         | Acompanhar dados gerais da produção, como quantidade produzida, tempos de ciclo e eventuais desvios.                                                 |     ALTA    |
 | RF11| Gerenciar Ordem de Serviço | Criar, atualizar, acompanhar e encerrar ordens de serviço, garantindo controle sobre atividades de manutenção e reparo.                              |     ALTA    |
 | RF12| Gerenciar Edições          | Controlar alterações feitas em ordens de serviço, máquinas e dados associados, mantendo histórico das modificações.                                  |     MÉDIA   |
 | RF13| Gerenciar Histórico        | Armazenar e permitir consulta ao histórico de falhas e eventos das máquinas, facilitando análises e previsões.                                       |     MÉDIA   |
-| RF14| Gerenciar Estoque          | Controlar entrada, saída e saldo de materiais no almoxarifado, evitando faltas ou excessos.                                                          |     ALTA    |
-| RF15| Gerenciar Consumo          | Registrar e analisar o consumo de materiais e insumos, permitindo melhor planejamento e reposição.                                                   |     ALTA    |
-| RF16| Gerenciar Cadastro         | Permitir o cadastro e manutenção de dados de máquinas, peças e usuários do sistema.                                                                  |     ALTA    |
-| RF17| Gerenciar Ocorrências      | Registrar e acompanhar ocorrências relacionadas à segurança, garantindo rastreabilidade e resolução.                                                 |     ALTA    |
-| RF18| Gerenciar Preventivas      | Agendar, registrar e monitorar manutenções preventivas das máquinas, visando redução de falhas e aumento da confiabilidade.                          |     ALTA    |
-| RF19| Gerenciar Custos           | Registrar custos operacionais, possibilitando análises financeiras e identificação de oportunidades de redução.                                      |     ALTA    |
-| RF20| Gerenciar Propostas        | Criar e acompanhar propostas de redução de custos, registrando projeções, resultados esperados e acompanhamento da implementação.                    |     ALTA    |
+| RF14| Gerenciar Estoque          | Controlar o saldo de materiais no almoxarifado por meio de consultas e simulações de retirada, considerando o estoque mínimo cadastrado.             |     ALTA    |
+| RF15| Gerenciar Ocorrências      | Registrar e acompanhar ocorrências relacionadas à segurança, garantindo rastreabilidade e resolução.                                                 |     ALTA    |
+| RF17| Gerenciar Preventivas      | Agendar, registrar e monitorar manutenções preventivas das máquinas, visando redução de falhas e aumento da confiabilidade.                          |     ALTA    |
+| RF18| Gerenciar Custos           | Permitir simular redução nas medidas das peças, calculando automaticamente o custo de produção com base nas alterações realizadas.                   |     ALTA    |
+
 
 ### Requisitos não funcionais
 
