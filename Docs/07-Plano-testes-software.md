@@ -31,9 +31,13 @@
 | **Critério de êxito** | Os dados do ciclo de produção são exibidos corretamente para a peça pesquisada. |
 | **Responsável pela elaboração do caso de teste** | Alan Lacerda Arantes |
 
-| **Caso de teste**  | **CT-004 – **  |
+| **Caso de teste**  | **CT-004 – Consultar Posicionamento**  |
 |--------------------|-------------------------------------------|
 | **Requisito associado** | RF04 - Gerenciar Posicionamentos |
+| **Objetivo do teste** | Garantir que o usuário consiga buscar e visualizar as informações do posicionamento. |
+| **Passos** | - Abrir o aplicativo <br> - Digitar o código da peça no campo de busca <br> - Clicar no botão "Buscar" <br> - Selecionar a opção "Posicionamento Destacker" <br> - Conferir as imagens exibidas |
+| **Critério de êxito** | As imagens do posicionamento são exibidas corretamente para a peça pesquisada. |
+| **Responsável pela elaboração do caso de teste** | Alan Lacerda Arantes |
 
 
 | **Caso de teste**  | **CT-005 – **  |
